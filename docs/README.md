@@ -77,3 +77,10 @@ perimeter(3, 5, 7)
 return 15
 ```
 
+### 3. Project change history
+```
+2025-09-19 — fixed an error in the file rectangle.py — 31f5f4c
+2025-09-19 — new file has been added — 690e40a
+2021-03-04 — L-03: Docs added — d078c8d
+2021-03-04 — L-03: Circle and square added — 8ba9aeb
+```
