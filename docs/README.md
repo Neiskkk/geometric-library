@@ -24,13 +24,17 @@ Project structure:
 
 ### `circle.py`
 
-`area(r)` - Takes the value of the radius and returns the value of the area of the circle
+`area(r)` - Takes the value of the radius and returns the value of the area of the circle  
+
+r: float - circle radius
 ```
 area(5)
 return 25 * pi 
 ```
 
 `perimeter(r)` - Takes the value of the radius and returns the length of the circle.
+
+r: float - circle radius
 ```
 perimeter(5)
 return 10 * pi
@@ -39,12 +43,16 @@ return 10 * pi
 ### `square.py`
 
 `area(a)` - Takes the length of the side of a square and returns the area of the square
+
+a: float - side of a square
 ```
 area(5)
 return 25
 ```
 
 `perimeter(a)` - Takes the length of the side of the square and returns the perimeter of the square
+
+a: float - side of a square
 ```
 perimeter(5)
 return 20
@@ -53,31 +61,56 @@ return 20
 ### `rectangle.py`
 
 `area(a, b)` - Takes the values of the sides of a rectangle and returns the area of the rectangle
+
+a: float - side of a rectangle
+
+b: float - side of a rectangle
 ```
 area(3, 5)
 return 15
 ```
 
 `perimeter(a, b)` - Takes the values of the sides of the rectangle and returns the perimeter of the rectangle
+
+a: float - side of a rectangle
+
+b: float - side of a rectangle
 ```
 perimeter(3, 5)
 return 16
 ```
 
 ### `triangle.py`
-`area(a, h)` - Takes the values of the sides of a triangle and returns the perimeter of the triangle
-```s
+`area(a, h)` - Takes the values of the side and height of the triangle and returns the area of the triangle
+
+a: float - side of a triangle
+
+b: float - height of a triangle
+```
 area(2, 3)
 return 3
 ```
 
 `perimeter(a, b, c)` - Takes the values of the sides of a triangle and returns the perimeter of the triangle
+
+a: float - side of a triangle
+
+b: float - side of a triangle
+
+c: float - side of a triangle
+
 ```
 perimeter(3, 5, 7)
 return 15
 ```
+### 3. Testing
 
-### 3. Project change history
+Added tests to verify the correctness of the work. 
+
+The tests are in the files test_circle.py, test_rectangle.py, test_square.py, test_triangle.py
+
+
+### 4. Project change history
 ```
 2025-09-19 — fixed an error in the file rectangle.py — 31f5f4c
 2025-09-19 — new file has been added — 690e40a
